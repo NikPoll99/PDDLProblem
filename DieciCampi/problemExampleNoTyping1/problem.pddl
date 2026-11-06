@@ -1,0 +1,20 @@
+(define (problem DieciCampi) 
+(:domain CAMPI)
+(:objects f1 far1 t1 p1 s1 )
+(:init (CAMPO f1) 
+       (contadino far1) 
+       (TRA t1) 
+       (TRA-ARA t1)
+       (TRA-SEMINA t1)
+       (ARATRO p1)
+       (SEMINATORE s1)
+
+       (at far1 f1)
+       (at t1 f1)
+       (at p1 f1)
+       (at s1 f1)
+
+       )
+
+(:goal (innaffiato f1) )
+)  
